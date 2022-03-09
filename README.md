@@ -1,3 +1,5 @@
+https://hanamichi2.visualstudio.com/PipelinesDotNetCore/_apis/build/status/MyFirstPipeline?branchName=master
+
 # Sample ASP.NET Core application for Azure Pipelines docs
 
 For information on how to set up a pipeline for this repository, see [Create your first pipeline](https://docs.microsoft.com/azure/devops/pipelines/get-started-yaml?view=azure-devops).
