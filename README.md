@@ -1,4 +1,4 @@
-https://hanamichi2.visualstudio.com/PipelinesDotNetCore/_apis/build/status/MyFirstPipeline?branchName=master
+[![Build Status](https://hanamichi2.visualstudio.com/PipelinesDotNetCore/_apis/build/status/MyFirstPipeline?branchName=master)](https://hanamichi2.visualstudio.com/PipelinesDotNetCore/_build/latest?definitionId=2&branchName=master)
 
 # Sample ASP.NET Core application for Azure Pipelines docs
 
