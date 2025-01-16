@@ -13,8 +13,17 @@ stages:
 - stage: Build
   displayName: 'Build Stage'
   jobs:
-  - job: BuildJob
-    displayName: 'Build Job'
+  - job: Job1
+    displayName: 'Build Job 1'
+    steps:
+    - script: |
+        echo "Restoring project dependencies..."
+      displayName: 'Restore dependencies'
+    - script: |
+        echo "Running unit tests..."
+      displayName: 'Run unit tests'
+  - job: Job2
+    displayName: 'Build Job 2'
     steps:
     - script: |
         echo "Restoring project dependencies..."
